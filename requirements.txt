@@ -1,0 +1,14 @@
+# requirements.txt
+# Dependensi untuk Profiling Pegawai AI (RAG + Agentic AI)
+
+streamlit
+langchain
+faiss-cpu
+openai
+tiktoken
+PyPDF2
+pandas
+numpy
+plotly
+openrouter
+python-dotenv
