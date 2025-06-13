@@ -2,7 +2,7 @@
 # Modul RAG untuk Profiling Pegawai – Early Warning System
 
 from langchain.chains import RetrievalQA
-from langchain.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.agents import initialize_agent, Tool
 from langchain.agents.agent_toolkits import create_retriever_tool

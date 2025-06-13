@@ -1,0 +1,24 @@
+# .gitignore
+# Hindari file sensitif, dataset, dan env agar tidak ter-push ke GitHub
+
+# Python virtual environment
+env/
+venv/
+__pycache__/
+
+# Streamlit secrets & config
+.streamlit/
+secrets.toml
+openrouter_config.py
+
+# Dataset & model
+/data/*.csv
+/model/
+/temp/
+
+# VS Code
+.vscode/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
